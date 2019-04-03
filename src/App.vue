@@ -167,7 +167,7 @@ export default {
   data() {
     return {
       currentSwiperIndex: 0,
-      avatar: require('./assets/img/avatar.png'),
+      avatar: require('./assets/img/avatar.jpg'),
       code: require('./assets/img/resume_code.png'),
       baseInfo: {
         '姓名': '李佩珠',
