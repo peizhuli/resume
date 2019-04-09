@@ -100,7 +100,7 @@
                     <div class="project-item">
                       <div style="text-align: center">
                         <p>在线简历，可扫描下图二维码识别</p>
-                        <img :src="code" />
+                        <img :src="code" style="max-width: 90%;" />
                       </div>
                     </div>
                   </div>
@@ -130,6 +130,7 @@
 
 <script>
 let swiper;
+//import "~@/assets/css/main.scss";
 export default {
   name: 'App',
   mounted() {
@@ -296,63 +297,63 @@ export default {
   /* autoprefixer: on */
   background: linear-gradient(left top, #f05ed0, #3c43a4);
 }
-@keyframes fadeInLeft {
-  0% {
-    opacity: 0;
-    transform: translate3D(-100%, 0, 0);
-    -webkit-transform: translate3D(-100%, 0, 0);
-    -moz-transform: translate3D(-100%, 0, 0);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-    -webkit-transform: none;
-    -moz-transform: none;
-  }
-}
-@keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    transform: translate3D(100%, 0, 0);
-    -webkit-transform: translate3D(100%, 0, 0);
-    -moz-transform: translate3D(100%, 0, 0);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-    -webkit-transform: none;
-    -moz-transform: none;
-  }
-}
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    transform: translate3D(0, -100%, 0);
-    -webkit-transform: translate3D(0, -100%, 0);
-    -moz-transform: translate3D(0, -100%, 0);
-  }
-  100% {
-    opacity: 1;
-    transform: translate3D(0, 0, 0);
-    -webkit-transform: translate3D(0, 0, 0);
-    -moz-transform: translate3D(0, 0, 0);
-  }
-}
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translate3D(0, 100%, 0);
-    -webkit-transform: translate3D(0, 100%, 0);
-    -moz-transform: translate3D(0, 100%, 0);
-  }
-  100% {
-    opacity: 1;
-    transform: translate3D(0, 0, 0);
-    -webkit-transform: translate3D(0, 0, 0);
-    -moz-transform: translate3D(0, 0, 0);
-  }
-}
+/*@keyframes fadeInLeft {*/
+  /*0% {*/
+    /*opacity: 0;*/
+    /*transform: translate3D(-100%, 0, 0);*/
+    /*-webkit-transform: translate3D(-100%, 0, 0);*/
+    /*-moz-transform: translate3D(-100%, 0, 0);*/
+  /*}*/
+  /*100% {*/
+    /*opacity: 1;*/
+    /*transform: none;*/
+    /*-webkit-transform: none;*/
+    /*-moz-transform: none;*/
+  /*}*/
+/*}*/
+/*@keyframes fadeInRight {*/
+  /*0% {*/
+    /*opacity: 0;*/
+    /*transform: translate3D(100%, 0, 0);*/
+    /*-webkit-transform: translate3D(100%, 0, 0);*/
+    /*-moz-transform: translate3D(100%, 0, 0);*/
+  /*}*/
+  /*100% {*/
+    /*opacity: 1;*/
+    /*transform: none;*/
+    /*-webkit-transform: none;*/
+    /*-moz-transform: none;*/
+  /*}*/
+/*}*/
+/*@keyframes fadeInDown {*/
+  /*0% {*/
+    /*opacity: 0;*/
+    /*transform: translate3D(0, -100%, 0);*/
+    /*-webkit-transform: translate3D(0, -100%, 0);*/
+    /*-moz-transform: translate3D(0, -100%, 0);*/
+  /*}*/
+  /*100% {*/
+    /*opacity: 1;*/
+    /*transform: translate3D(0, 0, 0);*/
+    /*-webkit-transform: translate3D(0, 0, 0);*/
+    /*-moz-transform: translate3D(0, 0, 0);*/
+  /*}*/
+/*}*/
+/*@keyframes fadeInUp {*/
+  /*0% {*/
+    /*opacity: 0;*/
+    /*transform: translate3D(0, 100%, 0);*/
+    /*-webkit-transform: translate3D(0, 100%, 0);*/
+    /*-moz-transform: translate3D(0, 100%, 0);*/
+  /*}*/
+  /*100% {*/
+    /*opacity: 1;*/
+    /*transform: translate3D(0, 0, 0);*/
+    /*-webkit-transform: translate3D(0, 0, 0);*/
+    /*-moz-transform: translate3D(0, 0, 0);*/
+  /*}*/
+/*}*/
 </style>
-<style scoped>
-@import "assets/css/app.css";
+<style lang="scss" type="text/css" scoped>
+  @import "~@/assets/css/main.scss";
 </style>
